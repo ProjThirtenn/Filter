@@ -4,9 +4,9 @@ public class String {
 
     public static java.lang.String filterText(java.lang.String text, java.lang.String alphabet, java.lang.String mode) {
         if (mode.equals("normal")) {
-            alphabet += alphabet.toUpperCase() + "abcdefghijklmnopqrstuvwxyz";
+            alphabet += alphabet.toUpperCase() + "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя";
         } else if (mode.equals("with_space")) {
-            alphabet += alphabet.toUpperCase() + "abcdefghijklmnopqrstuvwxyz";
+            alphabet += alphabet.toUpperCase() + "абвгґдеєжзиіїйклмнопрстуфхцчшщьюя";
         } else {
             throw new IllegalArgumentException("Invalid mode. Please choose 'normal' or 'with_space'.");
         }
